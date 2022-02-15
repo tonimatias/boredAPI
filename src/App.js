@@ -14,8 +14,6 @@ function App() {
     getData();
   }, [])
 
-
-
   function getData() {
     axios.get(URL)
       .then((response) => {
