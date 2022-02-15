@@ -40,7 +40,7 @@ function App() {
         <p> What kind of activity is this:</p>
         <p>{type}</p>
         <button id='button' onClick={handleClick}>Give me another one</button>
-        <p id='clicks' style={{ display: "none" }}>Nothing interesting?  You have pressed "Give me another one" button: {counter} time(s)</p>
+        <p id='clicks' style={{ display: "none" }}>Nothing interesting?  You pressed the "Give me another one" button: {counter} time(s)</p>
       </div>
     </div>
   );
